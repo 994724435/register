@@ -1,0 +1,8 @@
+﻿.content{padding:2px 8px 28px 8px;text-align: center;}
+.content img {width:100%;}
+.content table{width: 100%;}
+.content h1{margin-bottom: 10px;}
+.back{width: 100%;overflow: hidden;border-top: #990101 2px solid;margin-top: 10px;text-align: center;}
+.back img{height: 30px;margin-top: 6px;margin-right: 5px;}
+.back span{font-size: 28px;font-weight: bold;text-underline: none;}
+.back a{text-decoration: none;}

@@ -1,0 +1,6 @@
+[ 2017-01-07T09:51:16+08:00 ] 127.0.0.1 /register/index.php/Article
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+ERR: 无法加载模块:Article
+

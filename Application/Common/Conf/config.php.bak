@@ -1,0 +1,18 @@
+<?php
+return array(
+	'DB_TYPE'   => 'mysql', // 数据库类型
+	'DB_HOST'   => 'qdm109666462.my3w.com', // 服务器地址
+	'DB_NAME'   => 'qdm109666462_db', // 数据库名
+	'DB_USER'   => 'qdm109666462', // 用户名
+	'DB_PWD'    => 'qxu2062680169', // 密码
+	'DB_PORT'   => 3306, // 端口
+	'DB_PREFIX' => 'p_', // 数据库表前缀
+		'APPID'              => 'wxd23854d562b8d4bc', // 微信支付APPID
+		'MCHID'              => '1397852902', // 微信支付MCHID 商户收款账号
+		'KEY'                => 'M4pzG4KBWpJQKRqA5xDdcnyMGFRS72n2', // 微信支付KEY
+		'APPSECRET'          => 'b6b4c802ae60fbf06346a520e784b25b', // 公众帐号secert (公众号支付专用)
+		'NOTIFY_URL'         => 'http://www.diaoch.cn/register/index.php/Home/Index/notify', // 接收支付状态的连接
+		'SESSION_AUTO_START' =>true
+//	'URL_MODEL' => '2',
+//	 'DEFAULT_MODULE' => 'Index'
+);

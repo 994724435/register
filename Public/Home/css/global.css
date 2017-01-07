@@ -1,0 +1,34 @@
+/* 全局样式 */
+html, body, div, span,applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small,strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td{ margin:0; padding:0; border:0; }
+body{ color:#000; font-size:0.8em; font-family:'Microsoft YaHei',Arial, Helvetica, sans-serif; background:#DDDDDE; }
+ul,ol{ list-style-type:none; }
+select,input,img,select{ vertical-align:middle; outline:none; }
+a{ text-decoration:none; color:#333; }
+
+/* 通用样式 */
+body{background:#F4F4F4;}
+#header{height: 3.5em;background:#203F7F;color:#FFF;font-size: 1.2em; font-weight: bold;line-height: 3.5em; text-align: center;}
+.h_left{background:url(../images/bg_01.png) no-repeat -18px 0px;width:35px;height: 35px;display: inline-block;left:0.6em;position: absolute;top:0.8em;}
+.h_right{background:url(../images/bg_01.png) no-repeat -18px -60px;width:35px;height: 35px;display: inline-block;right:0.6em;position: absolute;top:0.8em;}
+
+/* 版权信息 */
+.footer_h{margin-top:3em;}
+footer{ width:100%; overflow:hidden;position: fixed;bottom: 0;left: 0;z-index: 99999;background: #FFF;}
+.footer ul li{width:32.5%;background: #203F7F;margin-right: 0.3em;margin-bottom: 0.3em;float:left;height: 3.5em;line-height: 3.5em; text-align: center;}
+.footer ul li a{color:#FFF;font-size: 1.2em;display: block;}
+.footer ul li a img{margin-right: 0.2em;width:30px;height: 30px;}
+#f_03{margin-right: 0em;}
+#f_06{margin-bottom: 0em;margin-right: 0em;}
+#f_07{margin-bottom: 0em;}
+#f_p{margin-top:0.3em;}
+.clear{clear: both;}
+ 
+
+ 
+
+#header { height:45px; background:#182140 url(../imagesnew/top.jpg) no-repeat center center; position:relative; width:100%; background-size:auto 45px; overflow:hidden;}
+#header a img { height:45px; width:auto;}
+#header a { display:block; position:absolute;}
+
+#header a.back { left:0;}
+#header a.home { right:0;}

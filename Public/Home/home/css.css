@@ -1,0 +1,22 @@
+﻿body,ul,ol,li,p,h1,h2,h3,h4,img,div,form,fieldset,input,textarea,p{margin:0;padding:0;border:0;}
+body{background-color:#1b1b1b; color:#333333;font:12px "SimSun"; margin:0px auto;}
+ul,ol,li{list-style-type:none;}
+.top{width: 100%;height:58px;background: #254698;text-align: center;margin-top: -19px;}
+.top img{width: 100%;margin-top: 10px;}
+.main {width:100%;height:320px;margin-bottom:20px;padding-left: 5px;}
+.ci {width:100%;padding-left: 5px;margin: 0 auto; overflow: hidden;}
+.Logo {text-align:center; width:100%;margin-bottom:10px;}
+.Logo img{width: 100%;height: 140px}
+
+.courses{ float:left;width:140px; height:126px; margin:0 10px 10px 0;}
+.courses_right{ float:left;width:140px;margin:0 0 10px 0;}
+.courses_zc{ float:left; width:140px; margin:0 10px 10px 0;}
+.courses_tc{ width:140px;}
+.cent{height:90px;width:300px;margin: 0 auto;}
+
+.cor{ float:left;width:140px; margin:0 10px 10px 0;}
+.online{float:left;width:140px;margin:0 0 10px 0;}
+.about{float:left;width:140px; margin:0 10px 0 0;}
+.contact{float:left;width:140px;margin-top: -85px}
+.footer {text-align:center; width:100%; padding:20px 0;margin:0 auto;clear: both;background-color: #1B1B2D;color: #ffffff; }
+.footer p{font-size: 15px;font-weight: bold}

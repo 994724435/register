@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <!--<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>-->
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0'/>
+    <title>微信安全支付</title>
+
+
+
+    <script type="text/javascript">
+
+        function onBridgeReady(){
+            WeixinJSBridge.invoke(
+                    'getBrandWCPayRequest', <?php echo $jsApiParameters; ?>,
+            function(res){
+                if(res.err_msg == "get_brand_wcpay_request：ok" ) {
+
+                }else{
+                    //返回跳转到订单详情页面
+                    WeixinJSBridge.log(res);
+                    alert(res.err_msg);
+                }
+
+            }
+        );
+        }
+        if (typeof WeixinJSBridge == "undefined"){
+            if( document.addEventListener ){
+                document.addEventListener('WeixinJSBridgeReady', onBridgeReady, false);
+            }else if (document.attachEvent){
+                document.attachEvent('WeixinJSBridgeReady', onBridgeReady);
+                document.attachEvent('onWeixinJSBridgeReady', onBridgeReady);
+            }
+        }else{
+            onBridgeReady();
+        }
+
+
+		
+    </script>
+ </head>
+ <body>
+ <button style="width:210px; height:30px; background-color:#FE6714; border:0px #FE6714 solid; cursor: pointer;  color:white;  font-size:16px;" type="button" onclick="onBridgeReady()" id="asd" >购买</button>
+
+    </div>
+ </body>
+ </html>
